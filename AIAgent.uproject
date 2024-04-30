@@ -26,6 +26,14 @@
 		{
 			"Name": "NetworkPredictionInsights",
 			"Enabled": true
+		},
+		{
+			"Name": "MoverTests",
+			"Enabled": true
+		},
+		{
+			"Name": "FunctionalTestingEditor",
+			"Enabled": true
 		}
 	]
 }
