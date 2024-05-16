@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class AIAgent : ModuleRules
+public class BlueprintMover : ModuleRules
 {
-	public AIAgent(ReadOnlyTargetRules Target) : base(Target)
+	public BlueprintMover(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

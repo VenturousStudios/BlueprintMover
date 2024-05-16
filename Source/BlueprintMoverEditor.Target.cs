@@ -3,13 +3,13 @@
 using UnrealBuildTool;
 using System.Collections.Generic;
 
-public class AIAgentEditorTarget : TargetRules
+public class BlueprintMoverEditorTarget : TargetRules
 {
-	public AIAgentEditorTarget(TargetInfo Target) : base(Target)
+	public BlueprintMoverEditorTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V5;
 
-		ExtraModuleNames.AddRange( new string[] { "AIAgent" } );
+		ExtraModuleNames.AddRange( new string[] { "BlueprintMover" } );
 	}
 }

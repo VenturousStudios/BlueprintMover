@@ -22,7 +22,7 @@ struct FHitResult;
 struct FProposedMove;
 
 UCLASS()
-class AIAGENT_API UMoverBlueprint_Wrapper : public UBlueprintFunctionLibrary
+class BLUEPRINTMOVER_API UMoverBlueprint_Wrapper : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 
